@@ -1,58 +1,192 @@
-# Welcome to your Expo app 👋
+# 🏆 Coach App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### **Sports Academy Management System**
 
-## Get started
+> A modern, all-in-one **mobile application** built for sports coaches and academy administrators to manage **students, attendance, fees, and performance analytics** — all in real time.
 
-1. Install dependencies
+<p align="center">
+  <b>📱 Android & iOS • ⚡ Real-time • 📊 Analytics-Driven • 🌙 Dark Mode</b>
+</p>
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Configure Environment Variables
+## 🌟 Why Coach App?
 
-   Copy the `.env.example` file to create a `.env` file and fill in your API keys:
+Managing a sports academy shouldn’t require notebooks, spreadsheets, or manual follow-ups.
 
-   ```bash
-   cp .env.example .env
-   ```
+**Coach App** simplifies everything:
 
-3. Start the app
+* Track students effortlessly
+* Record attendance in seconds
+* Monitor fee payments clearly
+* Generate professional reports instantly
 
-   ```bash
-   npx expo start
-   ```
+Built with **performance, scalability, and premium UI** in mind.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## ✨ Core Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 📊 Smart Dashboard
 
-## Get a fresh project
+* **Real-time analytics** for active students & attendance
+* **Quick actions**: Mark attendance, add fees, view reports
+* **Multi-branch view**: Switch branches or view combined insights
 
-When you're ready, run:
+---
+
+### 👥 Student Management
+
+* **Digital student directory** with advanced filters
+* **Detailed profiles**: Personal info, contacts & joining dates
+* **Profile photos** via **Cloudinary integration**
+* **Attendance heatmaps** for trend analysis
+
+---
+
+### 📅 Attendance & Fee Management
+
+* **Bulk attendance marking** (Morning / Evening sessions)
+* **Monthly fee tracking** (Paid / Pending)
+* **Revenue insights** by branch and session
+* **Edit historical records** anytime
+
+---
+
+### 📈 Reports & Data Export
+
+* **Master Excel Report**
+
+  * Student directory
+  * Complete fee history
+* **Monthly batch registers** (Attendance + Fees)
+* **Context-aware exports**
+
+  * Branch-wise
+  * Session-wise
+  * Analytics-based
+* **One-tap sharing** via Email / WhatsApp
+* Built using **XLSX + Expo Sharing**
+
+---
+
+### 🎨 Premium UI / UX
+
+* 🌗 **Light & Dark Mode**
+* ✨ Glassmorphic cards & custom alerts
+* 🎞 Smooth animations with Reanimated
+* 📱 Optimized for **Android & iOS**
+
+---
+
+## 🛠 Tech Stack
+
+| Layer                | Technology                 |
+| -------------------- | -------------------------- |
+| **Framework**        | React Native (Expo SDK 54) |
+| **Routing**          | Expo Router (File-based)   |
+| **Auth & DB**        | Firebase Auth & Firestore  |
+| **Image Storage**    | Cloudinary                 |
+| **State Management** | React Context API          |
+| **Animations**       | React Native Reanimated    |
+| **Reports**          | XLSX                       |
+| **Sharing**          | Expo Sharing               |
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+* **Node.js** (LTS)
+* **Expo Go App** (Mobile) or Emulator
+
+---
+
+### 📥 Installation
 
 ```bash
-npm run reset-project
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to the project
+cd Coach-App-Demo
+
+# Install dependencies
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+### 🔐 Environment Setup
 
-To learn more about developing your project with Expo, look at the following resources:
+Create a `.env` file in the root directory
+(Refer to `.env.example`)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```env
+# Firebase
+EXPO_PUBLIC_FIREBASE_API_KEY=your_key
+EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=your_domain
+EXPO_PUBLIC_FIREBASE_PROJECT_ID=your_id
+EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=your_bucket
+EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+EXPO_PUBLIC_FIREBASE_APP_ID=your_app_id
 
-## Join the community
+# Cloudinary
+EXPO_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloud_name
+EXPO_PUBLIC_CLOUDINARY_UPLOAD_PRESET=your_preset
+```
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### ▶️ Run the App
+
+```bash
+npx expo start
+```
+
+Scan the QR code using **Expo Go** or launch it on an emulator.
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+Coach-App-Demo/
+│
+├── app/            # Expo Router screens & layouts
+├── components/     # Reusable UI components
+├── services/       # Firebase, Cloudinary & Export logic
+├── hooks/          # Custom business logic hooks
+├── contexts/       # Theme & Authentication providers
+├── constants/      # Colors, styles & static configs
+├── types/          # TypeScript interfaces
+└── assets/         # Images & fonts
+```
+
+---
+
+## 📌 Use Cases
+
+* Sports Academies
+* Coaching Centers
+* Training Institutes
+* Multi-branch sports organizations
+
+---
+
+## ❤️ Built With Passion
+
+Designed and developed to **simplify academy management** and help coaches focus on what truly matters — **training champions**.
+
+---
+
+If you want, I can also:
+
+* Add **screenshots section**
+* Create **badges** (Expo, Firebase, Platform)
+* Write a **short GitHub description**
+* Make a **portfolio-ready version**
+* Optimize for **open-source contributions**
+
+Just tell me 👍
