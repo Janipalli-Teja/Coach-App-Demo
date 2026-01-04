@@ -179,14 +179,3 @@ Coach-App-Demo/
 
 Designed and developed to **simplify academy management** and help coaches focus on what truly matters — **training champions**.
 
----
-
-If you want, I can also:
-
-* Add **screenshots section**
-* Create **badges** (Expo, Firebase, Platform)
-* Write a **short GitHub description**
-* Make a **portfolio-ready version**
-* Optimize for **open-source contributions**
-
-Just tell me 👍
